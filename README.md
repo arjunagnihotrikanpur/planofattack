@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Todo App with Animations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple and interactive todo app built with React, Tailwind CSS, and Framer Motion. Users can add tasks, mark them as completed, and remove them from the list, all with smooth animations for a modern and engaging experience.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Add Todos**: Type a task and add it to your todo list.
+- **Mark as Completed**: Check off tasks as completed, which adds a line-through style.
+- **Remove Todos**: Delete tasks from the list with a single click.
+- **Animated Interface**: Interactive input field and todos with load and hover animations using Framer Motion.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Frontend framework for building UI components.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Framer Motion**: Animation library for creating smooth transitions and animations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+![Todo App Demo](demo.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Make sure you have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/arjunagnihotrikanpur/planofattack.git
+   ```
 
-### `npm run eject`
+Usage
+Add a Task: Type a task in the input field and click the pink "+" icon to add it to the list.
+Mark as Completed: Check the box next to a task to mark it as completed. Completed tasks will appear with a line-through style.
+Remove a Task: Click the "Remove" button to delete a task from the list.
+Project Structure
+App.jsx: Main component that manages the state for todos and renders the input field and todo list.
+components/Todo.jsx: Todo component that displays each task with animations, including completion and removal functionality.
+Customization
+Feel free to customize the colors, animations, or add new features to make it your own. The project is set up with Tailwind CSS and Framer Motion, making styling and animation customization easy.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Contributing
+Contributions are welcome! Please feel free to submit a pull request.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Fork the Project
+Create your Feature Branch (git checkout -b feature/YourFeature)
+Commit your Changes (git commit -m 'Add some feature')
+Push to the Branch (git push origin feature/YourFeature)
+Open a Pull Request
+Contact
+For any questions, feel free to reach out:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Name: Arjun
+Email: arjunagnihotri14a@gmail.com
+GitHub: arjunagnihotrikanpur
